@@ -24,6 +24,7 @@ class MenuViewTest(TestCase):
         serializer = MenuSerializer(menu, many=True)
         self.assertEqual(response.data, serializer.data)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+        
 
 
 # Write a BookingViewTest class that subclasses the TestCase class.

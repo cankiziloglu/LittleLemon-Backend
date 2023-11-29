@@ -1,6 +1,5 @@
-Usernames Passwords & Tokens
+Usernames Passwords
 
 Superuser
 u: admin
 p: lladmin123
-t: 
